@@ -35,7 +35,7 @@ DEVC=0
 COINl=proxynode
 #Coin ticket symbol
 COIN3=PRX
-COIN3l=prx/Linux
+COIN3l=prx/Linux/
 COINDAEMON=prxd
 COINDAEMONCLI=prx-cli
 COINCORE=.proxynode
