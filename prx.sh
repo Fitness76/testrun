@@ -35,7 +35,7 @@ DEVC=0
 COINl=proxynode
 #Coin ticket symbol
 COIN3=PRX
-COIN3l=prx
+COIN3l=prx/Linux
 COINDAEMON=prxd
 COINDAEMONCLI=prx-cli
 COINCORE=.proxynode
@@ -1199,7 +1199,8 @@ esac
   wget ${DOWNLOADCOINFILES}
   ${DECOMPRESS} ${COINFILES}
   sleep 3
-  sudo mv /root/${COIN3l}/${COINDAEMON} /root/${COIN3l}/${COINDAEMONCLI} /usr/local/bin
+  sudo mv /root/${
+ 3l}/${COINDAEMON} /root/${COIN3l}/${COINDAEMONCLI} /usr/local/bin
   sudo chmod 755 -R  /usr/local/bin/prx*
   #rm -rf /root/${COIN3l}
   }
